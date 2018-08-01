@@ -1,0 +1,22 @@
+name: CustomWorldBorder
+version: 0.0.0
+author: Jyumpp (CarelessLatin)
+api-version: 1.13
+main: me.Jyumpp.CustomWorldBorder.Main
+commands:
+  cwb:
+    usage: /cwb <radius>
+    description: The main command of the CustomWorldBorder plugin.
+  wbjail:
+    usage: /wbjail <player> OR /wbjail free <player>
+    description: Jail a player with a Worldborder.
+permissions:
+  CustomWorldBorder.setjail:
+    description: Adds ability to set players to jailed.
+    default: op
+  CustomWorldBorder.freejail:
+    description: Adds ability to free players from jail.
+    default: op
+  CustomWorldBorder.setborder:
+    description: Set custom border for yourself.
+    default: op
